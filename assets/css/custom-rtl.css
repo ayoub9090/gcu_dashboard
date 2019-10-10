@@ -1,0 +1,107 @@
+.select2-selection--single .select2-selection__rendered {
+  display: block;
+  padding:0px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.setup-steps .card .card-title:after {
+  right: auto;
+  content: "*";
+  left: -18px;
+}
+
+#service-settings .selectable-demo-list>li:after {
+  right: auto;
+  left: 3px;
+}
+
+#service-settings #alpaca-tokenfield .form-group:before {
+  left: auto;
+  right: 0px;
+}
+
+.select2-selection--single .select2-selection__arrow:after {
+  right: auto;
+  left: 6px;
+}
+
+input[type="checkbox"].ios-radio+label {
+  position: relative;
+  display: inline-table;
+  vertical-align: middle;
+  margin: 0%;
+  width: 40px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+input[type="checkbox"].ios-radio+label::before {
+  top: 2px;
+  left: auto;
+  right: 4px;
+  transition: all 0.3s ease-out;
+}
+
+input[type="checkbox"].ios-radio:checked+label {
+  background-color: #02a9f4;
+}
+
+input[type="checkbox"].ios-radio:checked+label::before {
+  right: calc(100% - 18px);
+}
+
+.section-info {
+  right: auto;
+  left: 0px;
+}
+
+#service-settings .tab-content-tools li {
+  float: left;
+  cursor: pointer;
+}
+
+.uniform-choice span:after {
+  left: auto;
+  right: calc(50% - 4px);
+}
+
+.nav-sidebar .nav-link i>i {
+  left: auto;
+  right: 4px;
+}
+
+label.c-dolar:after {
+  right: auto;
+  left: 10px;
+}
+.form-control-feedback {
+    left: 0px;
+    right: auto;
+}
+.edt-tbl-opt.active .edt{
+  right: auto !important;
+  left: 55px;
+}
+.toggled_action {
+    left: 18px;
+    right: auto;
+}
+.nav-tabs{
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
+
+.login-form .form-group-feedback-left .form-control {
+  padding-right: 32px !important;
+  padding-left: 0.875rem !important;
+}
+
+.login-form .form-control-feedback {
+  right: 0 !important;
+  left: auto !important;
+}
